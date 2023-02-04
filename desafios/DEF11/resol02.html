@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolução sugerida</title>
+    <style>
+        /* * {
+            margin: 0px;
+        } */
+
+        #espaço {
+            margin: 0px;
+            height: 99vh;
+            background-image: url(imagens/espaco.jpg);
+            background-position: center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+            display: grid;
+            place-items: center;
+        }
+
+        #astronauta {
+            background-image: url(imagens/astronauta.png);
+            /* background-position: center center; */
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+            /* background-attachment: scroll; */
+            /* position: absolute; */
+            height: 150px;
+            width: 150px;
+            /* left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); */
+
+        }
+    </style>
+</head>
+<body>
+    <section id="espaço">
+        <article id="astronauta"></article>
+    </section>
+</body>
+</html>
